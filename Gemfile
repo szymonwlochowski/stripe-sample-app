@@ -10,6 +10,8 @@ gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 
 gem 'bootstrap'
+gem 'bootstrap-sass'
+gem 'letter_opener', group: :development
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'figaro'
 # Use Puma as the app server
